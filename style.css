@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Fraunces;
+    src: url(./assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(./assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+}
+
+:root 
+{
+    --color-1: hsl(273, 85%, 13%);
+    --color-2: hsl(150, 100%, 63%);
+    --color-3: hsl(271, 12%, 34%);
+    --color-4: hsl(276, 100%, 99%);
+    --color-5: hsl(0,0%,100%);
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    font-family: Manrope;
+    line-height: 1.77em;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+* :first-child{
+    margin-top: 0;
+}
+
+* :last-child {
+    margin-bottom: 0;
+}
+
+
+
+.heading-1 
+{
+    font-family: Fraunces;
+    font-size: 4.44rem;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.heading-2 
+{
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 3.1em;
+    line-height: 1.14em;
+}
+
+.heading-3 
+{
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 1.77rem;
+    line-height: 1.25em;
+}
+
+
+
+.btn-1
+{
+    padding: .8em 1.38em;
+    border: transparent;
+    background-color: var(--color-2);
+    transition: border 300ms, color 300ms, background-color 300ms;
+}
+
+.btn-1:hover
+{
+    background-color: transparent;
+    border: solid 1px var(--color-2);
+    color: var(--color-2);
+}
+
+.btn-2 
+{
+    color: var(--color-5);
+    border-bottom: 1px solid var(--color-2);
+}
+
+.btn-2:hover 
+{
+    color: var(--color-2);
+}
+
+
+
+
+
