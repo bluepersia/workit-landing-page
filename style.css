@@ -68,6 +68,8 @@ body {
     line-height: 1.55em;
 }
 
+
+
 .imgBg-1, .imgBg-2 {
     display: none;
 }
@@ -150,19 +152,19 @@ span.underline::after
 .imgHero {
     width: 85.3%;
     position: absolute;
-    bottom: 0px;
+    bottom: -3.5em;
     left: 50%;
-    transform: translateY(100%) translateY(3.55em) translateX(-50%);
+    transform: translateY(100%) translateX(-50%);
 }
 
 .header::after
  {
     content: '';
     width: 140%;
-    height: 10.08em;
+    height: 11.5em;
     position: absolute;
     left: 0px;
-    bottom: 1.6em;
+    bottom: 2em;
     background-color: var(--color-1);
     transform: translateY(100%) translateX(-15%);
     border-radius: 50%;
@@ -174,7 +176,7 @@ span.underline::after
 
  .features {
     color: var(--color-1);
-    padding: 62% 4.2% 0em;
+    padding:83% 4.2% 0em;
     background-color: var(--color-4);
     position: relative;
     list-style: none;
@@ -184,8 +186,7 @@ span.underline::after
  }
 
  .feature_num {
-    width: 1.54em;
-    height: 1.48em;
+    font-size: 1.1rem;
     border-radius: 50%;
     border: solid 1px var(--color-1);
     display: flex;
@@ -193,6 +194,9 @@ span.underline::after
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    font-family: Fraunces;
+    padding: 0.43em .9em;
+    width: fit-content;
  }
 
 
@@ -211,7 +215,7 @@ span.underline::after
  }
 
  .section-2 {
-    padding: 9.55em 4.2%  0;
+    padding:11.3em 4.2%  0;
  }
 
 
@@ -282,7 +286,7 @@ span.underline::after
         font-size: 1.55em;
     }
 
-    .haeder {
+    .header {
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -304,20 +308,23 @@ span.underline::after
 
     .imgHero {
         width: 66%;
+        bottom: -3em;
     }
 
 
     .header::after
     {
-        height: 18.08em;
+        height: 16.5em;
         bottom: 3.6em;
     }
 
 
     .features {
-        padding-top:50%;
+        padding-top:52.4%;
         text-align: left;
-        gap: 2.66em
+        gap: 2.66em;
+        padding-left: 17%;
+        padding-right: 17%;
     }
 
     .feature {
@@ -334,7 +341,7 @@ span.underline::after
 
     .features::after
     {
-       height: 14.94em;
+       height: 11.7em;
        bottom: 6em;
     }
 
@@ -343,7 +350,7 @@ span.underline::after
         display: flex;
         align-items: start;
         text-align: left;
-        padding-top: 15em;
+        padding-top: 11.3em;
     }
 
     .imgFounder{
@@ -402,10 +409,15 @@ span.underline::after
     .imgHero {
         width: 53%;
         max-width: 800px;
+        bottom: -3.1em;
+    }
+
+    .header::after {
+        height: 21.7em;
     }
 
     .features {
-        padding-top: 32%;
+        padding-top: 40%;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -417,6 +429,20 @@ span.underline::after
         max-width: 354px;
         flex-direction: column;
         text-align: center;
+    }
+
+    .feature_num {
+        font-size: 1.33rem;
+    }
+
+    .features::after
+    {
+       height: 15.5em;
+       bottom: 6em;
+    }
+
+    .section-2 {
+        padding-top: 15.6em;
     }
 
 
