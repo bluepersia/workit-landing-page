@@ -395,6 +395,20 @@ span.underline::after
         font-size: 1rem;
     }
 
+    .heading-1 {
+        font-size: 4.4rem;
+    }
+
+    .heading-2 
+    {
+        font-size: 3.1em;
+    }
+
+    .heading-3 
+    {
+        font-size: 1.7em;
+    }
+
     .header {
         padding: 3.16em 11.4%;
     }
