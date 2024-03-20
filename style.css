@@ -384,6 +384,9 @@ span.underline::after
 
  @media (min-width: 1440px)
  {
+    body {
+        font-size: 1rem;
+    }
 
     .header {
         padding: 3.16em 11.4%;
