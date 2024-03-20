@@ -85,14 +85,14 @@ body {
     padding: .8em 1.38em;
     border: transparent;
     background-color: var(--color-2);
-    transition: border 300ms, color 300ms, background-color 300ms;
+    transition: outline 300ms, color 300ms, background-color 300ms;
     cursor: pointer;
 }
 
 .btn-1:hover
 {
     background-color: transparent;
-    border: solid 1px var(--color-2);
+    outline: solid 1px var(--color-2);
     color: var(--color-2);
 }
 
